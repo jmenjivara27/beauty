@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Navigator - L'Oréal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Beauty Navigator</h1>
+        <p>Descubre los productos perfectos para realzar tu belleza y confianza.</p>
+    </header>
+
+    <section id="survey-section">
+        <h2>Encuesta Interactiva</h2>
+        <form id="beauty-survey">
+            <label for="insecurity">¿Qué inseguridad relacionada con la belleza te gustaría abordar?</label>
+            <input type="text" id="insecurity" name="insecurity" required>
+
+            <label for="aspiration">¿Cuál es tu aspiración de belleza?</label>
+            <input type="text" id="aspiration" name="aspiration" required>
+
+            <button type="submit">Obtener Recomendaciones</button>
+        </form>
+    </section>
+
+    <section id="recommendation-section" style="display:none;">
+        <h2>Recomendaciones Personalizadas</h2>
+        <div id="product-list"></div>
+    </section>
+
+    <footer>
+        <p>Beauty Navigator &copy; 2024 - Powered by L'Oréal</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
